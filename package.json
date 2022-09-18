@@ -1,0 +1,43 @@
+{
+  "name": "crayon-sample",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "initialize": "node scripts/initializePostConfig.js",
+    "dev": "yarn initialize && next dev",
+    "build": "yarn initialize && next build",
+    "start": "yarn initialize && next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "gray-matter": "^4.0.3",
+    "next": "12.2.5",
+    "next-seo": "^5.5.0",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-is": "^18.2.0",
+    "react-markdown": "^8.0.3",
+    "react-syntax-highlighter": "^15.5.0",
+    "rehype-raw": "^6.1.1",
+    "remark-gfm": "^3.0.1",
+    "styled-components": "^5.3.5"
+  },
+  "devDependencies": {
+    "@types/node": "18.7.13",
+    "@types/react": "18.0.17",
+    "@types/react-dom": "18.0.6",
+    "@types/react-syntax-highlighter": "^15.5.5",
+    "@types/styled-components": "^5.1.26",
+    "@typescript-eslint/eslint-plugin": "^5.35.1",
+    "@typescript-eslint/parser": "^5.35.1",
+    "chalk": "4.1.2",
+    "eslint": "8.23.0",
+    "eslint-config-next": "12.2.5",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-simple-import-sort": "^7.0.0",
+    "prettier": "^2.7.1",
+    "typescript": "4.8.2"
+  }
+}
