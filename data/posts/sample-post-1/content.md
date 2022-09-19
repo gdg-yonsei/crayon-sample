@@ -1,10 +1,10 @@
 ---
 title: Sample Post 1
 date: 2022-09-19
-category: Category A
+category: Sample
 tags:
-  - Tag A
-  - Tag B
+  - Markdown
+  - Elements
 ---
 
 This is a **sample post**.
