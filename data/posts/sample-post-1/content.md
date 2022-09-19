@@ -1,6 +1,6 @@
 ---
 title: Sample Post 1
-date: 2022-09-19
+date: 2022-09-01
 category: Sample
 tags:
   - Markdown
